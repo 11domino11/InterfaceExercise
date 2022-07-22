@@ -39,6 +39,15 @@ namespace InterfaceExercise
 
             //Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their values
+
+            Car car = new Car();
+            SUV suv = new SUV();
+            Truck truck = new Truck();
+
+            Console.WriteLine($"The default information for car is: Logo {car.Logo}: Date {car.ManufactureDate}: Trunk Size {car.trunkSize} please visit our website for more information");
+            Console.WriteLine($"The default information for truck is: Logo {truck.Logo}: Date {truck.ManufactureDate}: Bed Length {truck.bedLength} please visit our website for more information");
+            Console.WriteLine($"The default information for SUV is: Logo {suv.Logo}: Date {suv.ManufactureDate}: Cargo Size {suv.cargoSize} please visit our website for more information");
+            Console.ReadLine();
         }
     }
 }
